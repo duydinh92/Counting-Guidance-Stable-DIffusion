@@ -1,0 +1,8 @@
+name: ldm_env
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8.5
+  - pip=20.3
+  - numpy=1.19.2

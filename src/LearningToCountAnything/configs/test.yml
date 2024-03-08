@@ -1,0 +1,12 @@
+---
+resume_path: ./pretrained_ counting_checkpoint/counting.ckpt
+
+backbone: "vit_dino"
+backbone_unfreeze_layers: 7
+
+counting_head: linear
+counting_loss: MAPE
+
+image_transforms: reflect_rotate_increase_density
+
+
