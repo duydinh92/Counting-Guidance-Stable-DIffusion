@@ -18,3 +18,7 @@ I follow the previously published implementation of the paper [Universal Guidanc
 bash scripts/apples.sh
 
 ```
+ we can control the image generation by changing the following arguments:
+`--optim_num_steps` sets the number of recurrent steps `k`
+`--optim_forward_guidance_wt` sets the constant in `s(t)`
+`--scale` represents unconditional guidance scale
