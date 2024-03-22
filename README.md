@@ -1,4 +1,4 @@
-# Counting-Guidance-Stable Diffusion
+# Counting Guidance Stable Diffusion
 Use diffusion to generate images that contain many objects from a specified category.
 
 ## Requirements
